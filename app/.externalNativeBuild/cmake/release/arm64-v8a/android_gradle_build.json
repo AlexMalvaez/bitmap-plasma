@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/alexlm/Documents/Alex/Android/CodeExamples/android-ndk-master/bitmap-plasma/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/alexlm/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/alexlm/Documents/Alex/Android/CodeExamples/android-ndk-master/bitmap-plasma/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"plasma-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "plasma",
+			"buildCommand" : "/Users/alexlm/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/alexlm/Documents/Alex/Android/CodeExamples/android-ndk-master/bitmap-plasma/app/.externalNativeBuild/cmake/release/arm64-v8a --target plasma",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/alexlm/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/alexlm/Library/Android/sdk/ndk-bundle/sysroot -Dplasma_EXPORTS  -isystem /Users/alexlm/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -Werror -Wno-unused-function -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/alexlm/Documents/Alex/Android/CodeExamples/android-ndk-master/bitmap-plasma/app/src/main/cpp/plasma.c",
+					"workingDirectory" : "/Users/alexlm/Documents/Alex/Android/CodeExamples/android-ndk-master/bitmap-plasma/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/alexlm/Documents/Alex/Android/CodeExamples/android-ndk-master/bitmap-plasma/app/build/intermediates/cmake/release/obj/arm64-v8a/libplasma.so",
+			"toolchain" : "6503859864543752610"
+		}
+	},
+	"toolchains" : 
+	{
+		"6503859864543752610" : 
+		{
+			"cCompilerExecutable" : "/Users/alexlm/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/alexlm/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
